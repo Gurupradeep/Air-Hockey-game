@@ -61,4 +61,52 @@ In this project we have six pairs of client-server threads. They are:
 
 We use the information which we get using user and server threads for the movements of pucks and mallets and changing scores.
 
+#DYN4J Library
+
+DYN4J is a physics engine which we used for collision detection and simulating the perfect collision between the objects
+
+
+#JAVA SWING
+
+We used swing for developing the UI part.
+
+#CONCLUSION
+
+Our game is modified version of normal Air Hockey game. Here instead of scoring goals we
+
+need to keep the pucks in the opponent’s half for longer duration of time. As it is a multiplayer
+
+game it mainly focuses on sending and receiving data which we done without much of delay
+
+using socket programming and simulate the perfect elastic collisions we used DYN4J a physics
+
+library to give the user better experience of the game.
+
+Since the project involves a considerable amount of communication, it is expected to perform
+
+better under conditions of low network latency. When the latency is high there may be a lot of
+
+time lag between initiation of an action and its execution. Also wired connection is preferred
+
+over the wireless mode in which case there may seem to be a lack of coordination between the
+
+different activities.
+
+It is a wonderful game which provides a thrilling experience to the players and care has been
+
+taken to make the user interface beautiful. As always improvements can be made to make it
+
+better that may be in terms of reducing the latency or making the movement of the pucks and the
+
+mallet as smooth as possible.
+
+#REFERENCES
+
+ Java: The Complete Reference, Ninth Edition
+
+ http://www.tutorialspoint.com/java/java_applet_basics.htm
+
+ http://www.edinformatics.com/il/il_physics.htm
+
+ http://www.dyn4j.org/tag/collisiondetection/
 
