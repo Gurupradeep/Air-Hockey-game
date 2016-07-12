@@ -35,4 +35,30 @@ the winner, or if the scores are level, the match ends as a draw.
 
 #JAVA FEATURES AND CONCEPTS USED
 
+#JAVA SOCKET PROGRAMMING
+
+Sockets provide the communication mechanism between two computers using TCP. TCP is a
+
+two way communication protocol, so data can be sent across both streams at the same time. A
+
+client program creates a socket on its end of the communication and attempts to connect that
+
+socket to a server. When the connection is made, the server creates a socket object on its end of
+
+the communication. The client and server can now communicate by writing to and reading from
+
+the socket.
+
+In this project we have six pairs of client-server threads. They are:
+
+ Two for two mallets
+
+ Two for two pucks
+
+ One for Player name
+
+ Two for players scores
+
+We use the information which we get using user and server threads for the movements of pucks and mallets and changing scores.
+
 
